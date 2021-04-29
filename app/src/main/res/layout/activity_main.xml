@@ -7,11 +7,23 @@
     android:id="@+id/container"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/getTxt"
-        android:text="获取内容"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/getTxt"
+            android:visibility="gone"
+            android:text="获取内容"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/getTxt2"
+            android:text="已接种"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
 
 
 </LinearLayout>
